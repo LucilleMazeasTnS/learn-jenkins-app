@@ -92,8 +92,8 @@ pipeline {
         stage('Approval'){
             steps{
                 input{
-                    message 'Do you wish to deploy to production ?'
-                    ok 'Yes, I am sure !'
+                    message = 'Do you wish to deploy to production ?'
+                    ok = 'Yes, I am sure !'
                 }
             }
             
